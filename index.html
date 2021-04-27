@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <title>Corona Resources</title>
+    <style>
+        .carousel-caption h1
+        {
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color: white;
+            color:black;
+            opacity: 0.6;
+        }
+
+        .carousel-caption p
+        {
+          font-size: 25px;
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: bold;
+          background-color: white;
+          opacity: 0.9;
+          color: black;
+        }
+
+        .carousel-caption a
+        {
+          padding: 10px;
+          background-color: orange;
+          width: 150px;
+          color:black;
+          font-weight: bolder;
+        }
+
+        .carousel-item img{
+         min-width: 100%;
+         min-height:100%;
+        }
+        .container-fluid{
+            margin: 0px;
+            padding:0px;
+        }
+        .container {
+            position: relative;
+            width: 50%;
+            }
+
+            .image{
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            }
+
+                .overlay {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+                }
+
+                .image_container:hover .image {
+                opacity: 0.3;
+                }
+
+                .image_container:hover .overlay {
+                opacity: 1;
+                }
+
+                .text {
+                background-color: #000000;
+                color: white;
+                font-size: 16px;
+                padding: 16px 32px;
+                }
+
+                .footer{
+                background: #152F4F;
+                color:white;
+            }
+    
+            .footer .links ul 
+            {list-style-type: none;}
+
+            .footer .links  li a{
+                 color: white;
+                transition: color .2s;
+            }
+
+            .footer .links  li a:hover{
+            text-decoration:none;
+            color:#4180CB;
+            }
+    
+            .about-company  i{font-size: 25px;}
+
+            .about-company  a{
+            color:white;
+            transition: color .2s;}
+            
+            .about-company  a:hover{color:#4180CB}
+      
+     
+    
+        .about-company.location i{font-size: 18px;}
+    </style>
+</head>
+<body>
+        <div class="container-fluid">
+        <nav class="navbar navbar-inverse bg-info sticky-top">
+            <div class="container-fluid ">
+                <div class="d-flex justify-content-center"><div class="navbar-header ">
+                    <a class="navbar-brand text-white p-2 w-100 bd-highlight font-weight-bold" href="index.html">Covid-19 Resources</a>
+                </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="mkm.html" class="text-white"><span class="glyphicon glyphicon-log-in"></span>About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                
+            </ul>
+  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-responsive" src="https://cdn.pixabay.com/photo/2020/04/11/03/02/coronavirus-5028575_1280.jpg" alt="" width="1100" height="500">
+                <div class="carousel-caption">
+                    <p>US to export vaccine raw material, deploy expert team to help India after NSA Doval's call with counterpart</p>
+                    <a href="https://www.google.com/search?q=vaccine+latest+news+india&rlz=1C1NDCM_enIN872IN872&biw=1536&bih=674&tbm=nws&sxsrf=ALeKk03uHLjQr_1wq0VMDVqhvPezkzcmgA%3A1619387039488&ei=n-KFYI2yHc6w9QPt27-gAQ&oq=vaccine+latest+news&gs_l=psy-ab.3.0.0l3.17931.22834.0.24133.28.18.0.0.0.0.399.2622.0j5j3j3.11.0....0...1c.1.64.psy-ab..21.7.1667...0i13k1.0.YkTMYYyPMrk">Learn More</a>
+                </div>   
+              </div>
+  
+              <div class="carousel-item">
+                <img class="img-responsive" src="https://static.businessworld.in/article/article_extra_large_image/1585367442_yC03Ww_Self_care_during_Corona.jpg" alt="" width="1100" height="500">
+                <div class="carousel-caption">
+                    <p>PMO says 551 oxygen generation plants to be set up through PM Cares Fund</p>
+                    <a href="https://www.google.com/search?q=oxygen+india+news&rlz=1C1NDCM_enIN872IN872&biw=1536&bih=674&tbm=nws&sxsrf=ALeKk00dq9_ZwGTtY5_movkBNbUbab0lDA%3A1619387036496&ei=nOKFYIfcHYrd9QOPrYaQBg&oq=oxygen+india+news&gs_l=psy-ab.3..0.1301.2106.0.2223.5.1.0.4.4.0.143.143.0j1.1.0....0...1c.1.64.psy-ab..0.5.155....0.n1PkQBFBYd8" >Learn More</a>
+                  
+                </div>   
+              </div>
+  
+              <div class="carousel-item">
+                <img src="https://static.businessworld.in/article/article_extra_large_image/1592807382_73a4cc_test_kits_2.jpg" alt="" width="1100" height="500">
+                <div class="carousel-caption">
+                    <p style="font: size 3%;">NASA comes up with simpler, more affordable ventilator; 3 Indian companies in contention for manufacturing</p>
+                    <a href="https://www.google.com/search?q=ventilator+news&rlz=1C1NDCM_enIN872IN872&biw=1536&bih=674&tbm=nws&sxsrf=ALeKk03fNzeH4hKC_1pUr3CXS11USKG3Pg%3A1619386608523&ei=8OCFYJ23H7SMmgf78YnACA&oq=ventilator+news&gs_l=psy-ab.3..0i333k1l2.3809.4713.0.4875.5.5.0.0.0.0.276.477.2-2.2.0....0...1c.1.64.psy-ab..3.2.477...0.0.NkJvsLQd0PQ">Learn More</a>
+                  
+                </div>   
+                </div>
+              </div>
+  
+              
+  
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+  
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          <div>
+              </div>
+
+                <br><br>
+              <div class="container">
+                <div class="card-deck">
+                    <div class="card mb-4 bg-dark">
+                      <div class="image_container">
+                          <img class="card-img-top img-fluid image" src="Images/va1.jpeg" alt="">
+                          <div class="overlay">
+                              <div class="text"><a href="home.html" class="text-white">I am in Need</a></div>
+                          </div>
+                        </div>
+                      
+                    </div>
+  
+                    <div class="w-100 d-none d-sm-block d-md-none"></div>
+  
+                    <div class="card mb-4 bg-dark">
+                        <div class="image_container">
+                            <img class="card-img-top img-fluid image" src="Images/c1.jpeg" alt="">
+                            <div class="overlay">
+                              <div class="text"><a href="LSform.html" class="text-white">I know a Supplier</a></div>
+                            </div>
+                          </div>
+                        
+                      </div>
+                </div>
+                </div>
+
+
+
+
+                <!----FOOTER-->
+                <div class="mt-5 pt-5 pb-5 footer">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-5 col-xs-12 about-company">
+                          <h2>Covid-19 Relief Resources</h2>
+                          <p class="pr-5 text-white-50">This website is dedicated to provide accurate and resourceful information about the essential needs for covid patients like Oxygen cylinders, Ventilators and much more. </p>
+                          <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+                        </div>
+                        <div class="col-lg-3 col-xs-12 links">
+                          <h4 class="mt-lg-0 mt-sm-3">Services</h4>
+                            <ul class="m-0 p-0">
+                              <li>- <a>Essential medical equipments.</a></li>
+                              <li>- <a>Availability of vaccine.</a></li>
+                              <li>- <a>Latest updates.</a></li>
+                              <li>- <a>Information of suppliers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-xs-12 location">
+                          <h4 class="mt-lg-0 mt-sm-4">Contact:</h4><a> +918193905821</a>
+                          <h5 class="mt-lg-0 mt-sm-4">Location: Ghaziabad</h5>                     
+                         </div>
+                        </div>
+                        <p class="copyright">Covid-19 Resources © 2021</p>
+                      </div>
+  
+    </body>
+</html>

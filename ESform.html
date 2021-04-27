@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <title>Resource submission</title>
+    <style>
+        .onlyform.container-fluid{
+            background-color: rgb(255, 255, 255);
+        }
+        .container-fluid{
+            margin: 0px;
+            padding:0px;
+        }
+        .footer{
+                background: #152F4F;
+                color:white;
+            }
+    
+            .footer .links ul 
+            {list-style-type: none;}
+
+            .footer .links  li a{
+                 color: white;
+                transition: color .2s;
+            }
+
+            .footer .links  li a:hover{
+            text-decoration:none;
+            color:#4180CB;
+            }
+    
+            .about-company  i{font-size: 25px;}
+
+            .about-company  a{
+            color:white;
+            transition: color .2s;}
+            
+            .about-company  a:hover{color:#4180CB}
+      
+     
+    
+        .about-company.location i{font-size: 18px;}
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse bg-info sticky-top">
+            <div class="container-fluid ">
+                <div class="d-flex justify-content-center">
+                    <div class="navbar-header ">
+                    <a class="navbar-brand text-white p-2 w-100 bd-highlight font-weight-bold" href="index.html">Covid-19 Resources</a>
+                </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="mkm.html" class="text-white"><span class="glyphicon glyphicon-log-in"></span>About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+      <div class="container-fluid onlyform">
+      <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputname" class="form-label font-weight-bold">Name of Supplier</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="inputemail" class="form-label font-weight-bold">Your E-Mail</label>
+            <input type="email" class="form-control" id="inputemail">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label font-weight-bold">Address of Supplier(With Zipcode)</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Street name/House number">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label font-weight-bold">Type of Resource</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="O2 cylinder/Ventilator bed/Vaccine">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label font-weight-bold">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label font-weight-bold">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Andhra Pradesh</option>
+              <option>Arunachal Pradesh</option>
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Chhattisgarh</option>
+              <option>Goa</option>
+              <option>Gujrat</option>
+              <option>Haryana</option>
+              <option>Himachal Pradesh</option>
+              <option>Jharkhand</option>
+              <option>Karnataka</option>
+              <option>Kerala</option>
+              <option>Madhya Pradesh</option>
+              <option>Maharashtra</option>
+              <option>Manipur</option>
+              <option>Meghalaya</option>
+              <option>Mizoram</option>
+              <option>Nagaland</option>
+              <option>Odisha</option>
+              <option>Punjab</option>
+              <option>Rajasthan</option>
+              <option>Sikkim</option>
+              <option>Tamil Nadu</option>
+              <option>Telangana</option>
+              <option>Tripura</option>
+              <option>Uttarakhand</option>
+              <option>Uttar Pradesh</option>
+              <option>West Bengal</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputnumber" class="form-label font-weight-bold">Contact Number</label>
+            <input type="number" class="form-control" id="inputnumber">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label font-weight-bold" for="gridCheck">
+                I assure that the information I have supplied is correct to my knowledge
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div> 
+
+
+    <div class="mt-5 pt-5 pb-5 footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 about-company">
+            <h2>Covid-19 Relief Resources</h2>
+            <p class="pr-5 text-white-50">This website is dedicated to provide accurate and resourceful information about the essential needs for covid patients like Oxygen cylinders, Ventilators and much more. </p>
+            <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+          </div>
+          <div class="col-lg-3 col-xs-12 links">
+            <h4 class="mt-lg-0 mt-sm-3">Services</h4>
+              <ul class="m-0 p-0">
+                <li>- <a>Essential medical equipments.</a></li>
+                <li>- <a>Availability of vaccine.</a></li>
+                <li>- <a>Latest updates.</a></li>
+                <li>- <a>Information of suppliers</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-xs-12 location">
+            <h4 class="mt-lg-0 mt-sm-4">Contact:</h4><a> +918193905821</a>
+            <h5 class="mt-lg-0 mt-sm-4">Location: Ghaziabad</h5>                     
+           </div>
+          </div>
+          <p class="copyright">Covid-19 Resources © 2021</p>
+        </div>
+
+
+
+
+    
+</body>
+</html>
